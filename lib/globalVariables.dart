@@ -1,3 +1,14 @@
-import 'package:firebase_auth/firebase_auth.dart';
+import 'MbaUser.dart';
 
-User? currentFirebaseUser;
+MbaUser tempUser = MbaUser(
+    id: 'id',
+    email: 'email',
+    imageUrl: 'imageUrl',
+    exp: 'exp',
+    lang: [],
+    moto: 'moto',
+    name: 'name',
+    rating: 'rating',
+    type: 'type',
+    bio: 'none'
+);

@@ -7,6 +7,8 @@ import '../../elements/uiHelpers.dart';
 
 
 class LoginPage extends StatefulWidget {
+
+  static final  String id = 'login';
   const LoginPage({super.key});
 
   @override
